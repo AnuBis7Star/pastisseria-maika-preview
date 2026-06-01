@@ -52,3 +52,7 @@ Then open:
 ```text
 http://localhost:5500
 ```
+
+## Author
+
+Created as a static preview website by Alin Nascutiu.
