@@ -4,12 +4,8 @@ Static preview website in Catalan for a bakery in Reus, focused on custom mones,
 
 ## Live demo
 
-Add the GitHub Pages, Netlify or Vercel link here after deployment.
-
-Example:
-
 ```text
-https://your-github-username.github.io/pastisseria_maika_preview/
+https://anubis7star.github.io/pastisseria-maika-preview/
 ```
 
 ## Project type
@@ -56,21 +52,3 @@ Then open:
 ```text
 http://localhost:5500
 ```
-
-## How to publish with GitHub Pages
-
-1. Create a new GitHub repository named `pastisseria_maika_preview`.
-2. Upload all files from this folder to the repository.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch **main** and folder **/root**.
-6. Save and wait until GitHub gives you the public URL.
-
-## Notes before using with a real client
-
-- Product names and prices are orientative for preview purposes.
-- Final WhatsApp number, legal text and confirmed business copy should be checked before publishing.
-
-## Author
-
-Created as a static preview website by Andreea Scurt.
