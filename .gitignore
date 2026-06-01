@@ -1,0 +1,11 @@
+# macOS / system files
+.DS_Store
+__MACOSX/
+._*
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary files
+*.log
