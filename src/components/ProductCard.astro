@@ -1,0 +1,32 @@
+---
+import { business } from "../data/site";
+import { withBase } from "../utils/paths";
+
+interface Props {
+  product: {
+    title: string;
+    category: string;
+    image: string;
+    alt: string;
+    description: string;
+  };
+}
+
+const { product } = Astro.props;
+const imageUrl = withBase(product.image);
+---
+
+<article class="product-card" data-category={product.category}>
+  <a href={imageUrl} class="product-image" target="_blank" rel="noopener">
+    <img src={imageUrl} alt={product.alt} loading="lazy" />
+  </a>
+  <div class="product-body">
+    <span class="tag">{product.category}</span>
+    <h3>{product.title}</h3>
+    <p>{product.description}</p>
+    <div class="product-footer">
+      <span>Preu a consultar</span>
+      <a href={business.phoneHref}>Encarregar</a>
+    </div>
+  </div>
+</article>
